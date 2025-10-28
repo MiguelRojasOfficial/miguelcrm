@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react"
 import { useRouter, useParams } from "next/navigation"
-import { Venta } from "@/types/ventas"
+import { Venta } from "@/types/venta"
 import { getVentas, saveVentas } from "@/lib/localStorage"
 import FormCard from "@/components/ui/FormCard"
 import Input from "@/components/ui/Input"
