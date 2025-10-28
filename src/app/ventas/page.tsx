@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react"
 import Link from "next/link"
-import { Venta } from "@/types/ventas"
+import { Venta } from "@/types/venta"
 
 export default function VentasPage() {
     const [ventas, setVentas] = useState<Venta[]>([])
