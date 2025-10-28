@@ -36,6 +36,7 @@ export default function EditarTareaPage() {
 
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
+    if (!tarea) return
     if (!validate()) {
       setToast("Corrige los errores del formulario")
       setTimeout(() => setToast(null), 2000)
