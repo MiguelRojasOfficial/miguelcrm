@@ -15,7 +15,7 @@ export default function NuevaVentaPage() {
     cliente: "",
     monto: 0,
     fecha: "",
-    estado: 'Pendiente' | 'Completada' | 'Cancelada'
+    estado: ""
   })
   const [errors, setErrors] = useState<{ [key: string]: string }>({})
   const [toast, setToast] = useState<string | null>(null)

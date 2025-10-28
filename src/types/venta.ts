@@ -3,5 +3,5 @@ export interface Venta {
     cliente: string
     monto: number 
     fecha: string 
-    estado: 'Pendiente' | 'Completada' | 'Cancelada'
+    estado: 'Pendiente' | 'Completada' | 'Cancelada' | ''
 }
