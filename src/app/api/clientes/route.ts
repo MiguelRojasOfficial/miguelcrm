@@ -24,7 +24,7 @@ export async function PUT(req: Request) {
 
 export async function DELETE(req: Request) {
   const { id } = await req.json()
-  let clientes = getClientes().filter(c => c.id !== id)
+  const clientes = getClientes().filter(c => c.id !== id)
   saveClientes(clientes)
   return NextResponse.json({ ok: true })
 }
