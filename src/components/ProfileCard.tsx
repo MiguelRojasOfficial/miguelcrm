@@ -18,9 +18,6 @@ export default function ProfileCard({ settings, onChange }: Props) {
         onChange({ ...settings, [name]: value })   
     }
 
-
-
-
     const handleImageUpload = (e: React.ChangeEvent<HTMLInputElement>) => {    
         const file = e.target.files?.[0]
         if (!file) return
@@ -72,7 +69,7 @@ export default function ProfileCard({ settings, onChange }: Props) {
                         <Input
                             label="Nombre"
                             name="name"
-                            value={settings.name || ''}
+                            value={settings.nombre || ''}
                             onChange={handleChange}
                             placeholder="Ingrese su nombre"
                             className="w-full p-2 rounded-md border" style={{ backgroundColor: 'var(--background', color: 'var(--foreground)', borderColor: 'var(--foreground)' }}
@@ -83,7 +80,7 @@ export default function ProfileCard({ settings, onChange }: Props) {
                         <Input
                             label="Correo"
                             name="email"
-                            value={settings.email || ''}
+                            value={settings.correo || ''}
                             onChange={handleChange}
                             placeholder="Ingrese su correo"
                             className="w-full p-2 rounded-md border" style={{ backgroundColor: 'var(--background', color: 'var(--foreground)', borderColor: 'var(--foreground)' }}
