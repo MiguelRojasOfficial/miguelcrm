@@ -19,7 +19,7 @@ export default function ConfiguracionPage() {
     const handleSave = () => {
         updateSettings(settings)
         const storedUser = JSON.parse(localStorage.getItem('user') || '{}')
-        const updatedUser = { ...storedUser, name: settings.name || storedUser.name, email: settings.email || storedUser.email, imagen: settings.imagen || storedUser.imagen, }
+        const updatedUser = { ...storedUser, nombre: settings.nombre || storedUser.nombre,  correo: settings.correo || storedUser.correo, imagen: settings.imagen || storedUser.imagen, }
         localStorage.setItem('user', JSON.stringify(updatedUser))
 
         const usuarios = JSON.parse(localStorage.getItem('usuarios') || '[]')
