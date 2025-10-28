@@ -25,6 +25,7 @@ export default function EditarTareaPage() {
   if (!tarea) return <p className="p-8 text-gray-500">Cargando...</p>
 
   function validate() {
+    if (!tarea) return false
     const e: any = {}
     e.titulo = tarea.titulo.trim() ? null : "El título es requerido"
     e.descripcion = tarea.descripcion.trim() ? null : "La descripción es requerida"
