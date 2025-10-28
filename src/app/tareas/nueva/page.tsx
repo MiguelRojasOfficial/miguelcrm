@@ -7,7 +7,6 @@ import { getTareas, saveTareas } from "@/lib/localStorage"
 import FormCard from "@/components/ui/FormCard"
 import Input from "@/components/ui/Input"
 import Button from "@/components/ui/Button"
-import { type } from '../../../../.next/types/routes';
 
 export default function NuevaTareaPage() {
     const router = useRouter()
