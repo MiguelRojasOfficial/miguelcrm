@@ -1,6 +1,6 @@
 'use client'
 
-import type { UserSettings } from "@types/settings"
+import type { UserSettings } from "@/types/settings"
 
 interface Props {
     settings: UserSettings
