@@ -51,10 +51,10 @@ export default function PortfolioPage() {
   }
 
   const proyectos = [
-    { id: 1, titulo: "Miguelflix", descripcion: "Next + React + Typescript + Tailwind + CSS + API de Contentful", imagen: "/images/miguelflix.png", url: "https://tu-proyecto-en-vercel.vercel.app" },
-    { id: 2, titulo: "Migueltify", descripcion: "Next + React + Typescript + Tailwind + API de Deezer + Multilenguaje", imagen: "/images/migueltify.png", url: "https://tu-proyecto-en-vercel.vercel.app" },
-    { id: 3, titulo: "Miguel TV", descripcion: "Next + React + Typescript + Tailwind + API de TMDb", imagen: "/images/migueltv.png", url: "https://tu-proyecto-en-vercel.vercel.app" },
-    { id: 4, titulo: "MiguelStore", descripcion: "Next + React + Typescript + Tailwind + CSS", imagen: "/images/miguelstore.png", url: "https://tu-proyecto-en-vercel.vercel.app" },
+    { id: 1, titulo: "Miguelflix", descripcion: "Next + React + Typescript + Tailwind + CSS + API de Contentful", imagen: "/images/miguelflix.png", url: "https://miguelflix.onrender.com" },
+    { id: 2, titulo: "Migueltify", descripcion: "Next + React + Typescript + Tailwind + API de Deezer + Multilenguaje", imagen: "/images/migueltify.png", url: "https://migueltify.onrender.com" },
+    { id: 3, titulo: "Miguel TV", descripcion: "Next + React + Typescript + Tailwind + API de TMDb", imagen: "/images/migueltv.png", url: "https://migueltv.onrender.com" },
+    { id: 4, titulo: "MiguelStore", descripcion: "Next + React + Typescript + Tailwind + CSS", imagen: "/images/miguelstore.png", url: "https://miguelstore.onrender.com" },
     { id: 5, titulo: "Airport", descripcion: "React + Three.js + @react-three/fiber + CSS", imagen: "/images/airplane.png", url: "https://miguelrojasoficial.onrender.com/" },
   ]
 
